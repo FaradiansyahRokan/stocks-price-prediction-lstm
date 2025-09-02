@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset & raw data
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+
+# Numpy & model files
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.gz
