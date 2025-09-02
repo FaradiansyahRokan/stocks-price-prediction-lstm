@@ -26,21 +26,26 @@ The pipeline includes **data preprocessing, normalization, model training, evalu
    cd stock-price-prediction-lstm
 
 2. Create virtual environment
+   ```
    python -m venv .venv
    source .venv/bin/activate  # Mac/Linux
    .venv\Scripts\activate     # Windows
 
-3. Install dependencies
+4. Install dependencies
+   ```
    pip install -r requirements.txt
 
-4. Prepare dataset
+6. Prepare dataset
     Place your stock CSV data into data/stocks/
     Run preprocessing script:
+   ```
     python scripts/01_preprocess.py
     
     Train the model
+   ```
     python scripts/02_train.py
     
     Run prediction & evaluation
+   ```
     python scripts/03_predict_and_evaluate.py
    ```
