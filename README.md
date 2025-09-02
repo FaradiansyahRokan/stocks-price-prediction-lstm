@@ -41,11 +41,10 @@ The pipeline includes **data preprocessing, normalization, model training, evalu
    ```
     python scripts/01_preprocess.py
     
-    Train the model
+7. Train the model
    ```
     python scripts/02_train.py
-    
-    Run prediction & evaluation
+
+8. Run prediction & evaluation
    ```
     python scripts/03_predict_and_evaluate.py
-   ```
